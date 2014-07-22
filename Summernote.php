@@ -52,9 +52,9 @@ use yii\widgets\InputWidget;
     public function run()
     {
         if ($this->hasModel()) {
-            echo Html::activeTextInput($this->model, $this->attribute, $this->options);
+            echo Html::activeTextarea($this->model, $this->attribute, $this->options);
         } else {
-            echo Html::textInput($this->name, $this->value, $this->options);
+            echo Html::textarea($this->name, $this->value, $this->options);
         }
         $this->registerClientScript();
     }
