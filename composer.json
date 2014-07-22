@@ -1,0 +1,25 @@
+{
+	"name": "linchpinstudios/yii2-summernote",
+	"description": "Summernote Plugin for the Yii2 framework",
+	"keywords": ["yii2", "Jquery", "Plugin", "DateTimePicker", "DateTime", "Widget"],
+	"type": "yii2-extension",
+	"license": "MIT",
+	"support": {
+		"issues": "https://github.com/linchpinstudios/yii2-summernote/issues",
+		"source": "https://github.com/linchpinstudios/yii2-summernote"
+	},
+	"authors": [
+		{
+			"name": "Josh Hagel",
+			"email": "joshhagel@linchpinstudios.com"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"linchpinstudios\\summernote\\": ""
+		}
+	}
+}
