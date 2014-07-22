@@ -15,7 +15,8 @@
 		}
 	],
 	"require": {
-		"yiisoft/yii2": "*"
+		"yiisoft/yii2": "*",
+		"HackerWins/summernote": "*"
 	},
 	"autoload": {
 		"psr-4": {

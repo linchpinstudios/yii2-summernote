@@ -17,12 +17,12 @@ use yii\web\AssetBundle;
  */
 class DateTimePickerAssets extends AssetBundle
 {
-    public $sourcePath = '@vendor/linchpinstudios/yii2-summernote';
+    public $sourcePath = '@vendor/HackerWins/summernote';
     public $css = [
-        'dist/css/summernote.css',
+        'dist/summernote.css',
     ];
     public $js = [
-        'dist/js/summernote.min.js',
+        'dist/summernote.min.js',
     ];
     public $depends = [
         'yii\web\JqueryAsset',
